@@ -1,0 +1,13 @@
+com\todolist\backend\controller\AuthController.class
+com\todolist\backend\entity\Task.class
+com\todolist\backend\config\CorsConfig.class
+com\todolist\backend\config\SecurityConfig.class
+com\todolist\backend\controller\TaskController.class
+com\todolist\backend\entity\User.class
+com\todolist\backend\repository\UserRepository.class
+com\todolist\backend\BackendApplication.class
+com\todolist\backend\security\JwtUtil.class
+com\todolist\backend\service\UserService.class
+com\todolist\backend\service\TaskService.class
+com\todolist\backend\config\CorsConfig$1.class
+com\todolist\backend\repository\TaskRepository.class

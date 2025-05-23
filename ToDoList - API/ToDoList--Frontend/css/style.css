@@ -1,0 +1,245 @@
+/* ----- GERAL ----- */
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* ----- LOGIN E CADASTRO ----- */
+.auth-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.auth-container {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-container h2 {
+  text-align: center;
+  color: #006666;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="email"],
+.auth-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3399aa;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #2a8191;
+}
+
+.auth-container .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.auth-container .footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-container .footer a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ----- TODOLIST ----- */
+.todolist-body {
+  background: #f5f7fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  background-color: #2b2d42;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  background:#ef476f;
+  padding:10px 20px;
+  color:#fff;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.task-list {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.task-item {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.task-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.task-item p {
+  margin: 0;
+  word-break: break-word; /* quebra palavras longas */
+  white-space: pre-wrap;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-item input[type="text"] {
+  flex: 1;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-actions {
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+.task-actions button {
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: #0066cc;
+  white-space: nowrap;
+}
+
+.task-actions button.delete {
+  background: #e63946;
+}
+
+.task-actions .edit {
+  background: #fca311;
+}
+
+.task-actions button:hover {
+  opacity: 0.85;
+}
+
+.add-task {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.add-task button {
+  background: #38b000;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.filter-sort {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.welcome-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.task-item {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.task-actions button {
+  margin: 0 4px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.task-actions .delete {
+  background: #ef233c;
+  color: white;
+}
+
+.task-actions button:hover {
+  opacity: 0.85;
+}

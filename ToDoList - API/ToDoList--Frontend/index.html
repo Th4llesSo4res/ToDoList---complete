@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Login</title>
+</head>
+<body class="auth-body">
+  <div class="auth-container">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="contato@htmlecsspro.com" required />
+    <input type="password" id="senha" placeholder="1234" required />
+    <div class="checkbox">
+      <input type="checkbox" id="manter" />
+      <label for="manter">Manter-me logado</label>
+    </div>
+    <button onclick="handleLogin()">Entrar</button>
+    <div class="footer">
+      Ainda não tem conta?
+      <a href="#" onclick="window.location.href='cadastro.html'">Cadastre-se</a>
+    </div>
+  </div>
+  <script src="scripts/auth.js"></script>
+</body>
+</html>

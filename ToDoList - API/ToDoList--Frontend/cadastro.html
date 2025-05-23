@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Cadastro</title>
+</head>
+<body class="auth-body">
+  <div class="auth-container">
+    <h2>Cadastro</h2>
+    <input type="text" id="nome" placeholder="Seu nome completo" required>
+    <input type="email" id="email" placeholder="Seu e-mail" required>
+    <input type="password" id="senha" placeholder="Crie uma senha" required>
+    <input type="password" id="confirmarSenha" placeholder="Confirme a senha" required>
+    <button onclick="register()">Cadastrar</button>
+    <div class="footer">
+      Já tem uma conta? <a href="index.html">Login</a>
+    </div>
+  </div>  
+  <script src="scripts/auth.js"></script>
+</body>
+</html>

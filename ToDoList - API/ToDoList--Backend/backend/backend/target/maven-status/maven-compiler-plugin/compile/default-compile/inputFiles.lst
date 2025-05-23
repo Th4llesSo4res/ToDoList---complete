@@ -1,0 +1,12 @@
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\BackendApplication.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\config\CorsConfig.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\config\SecurityConfig.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\controller\AuthController.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\controller\TaskController.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\entity\Task.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\entity\User.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\repository\TaskRepository.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\repository\UserRepository.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\security\JwtUtil.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\service\TaskService.java
+C:\Users\Desktop\Desktop\ToDoList - API\ToDoList--Backend\backend\backend\src\main\java\com\todolist\backend\service\UserService.java
